@@ -1,0 +1,3 @@
+-- alter table #__jshopping_shipping_method  CHANGE `params` `params` TEXT NOT NULL;
+-- alter table #__jshopping_shipping_ext_calc  CHANGE `params` `params` TEXT NOT NULL;
+-- alter table #__jshopping_shipping_method_price  CHANGE `params` `params` TEXT NOT NULL;

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="jshoppingproducts">
+    <name>Product category and subcategory</name>
+    <creationDate>24.12.2012</creationDate>
+    <version>1.1.0</version>
+    <author>MAXXmarketing GmbH</author>
+    <authorEmail>marketing@maxx-marketing.net</authorEmail>
+    <authorUrl>http://www.webdesigner-profi.de</authorUrl>
+    <copyright></copyright>
+    <license>MAXXmarketing GmbH</license>
+    <description>Show all products of category and subcategories</description>     
+    <files>
+	<filename plugin="allproducts">allproducts.php</filename>
+    </files>
+</extension>

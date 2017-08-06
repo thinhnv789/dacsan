@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>mod_raljoomshopsearch</name>
+	<author>Manea Raluca</author>
+	<creationDate>June 2012</creationDate>
+	<copyright>Copyright (C) 2005 - 2011 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>manea_raluca_alexandra@yahoo.com</authorEmail>
+	<authorUrl>www.ralinfo.ro</authorUrl>
+	<version>1.0.0</version>
+	<description>Module for jshopping from where you can search the products. Created by www.ralinfo.ro. Demo at: www.demo.ralinfo.ro/joomla-extensions.</description>
+	<files>
+		<filename module="mod_raljoomshopsearch">mod_raljoomshopsearch.php</filename>
+		<folder>tmpl</folder>
+		<folder>assets</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>		<filename>mod_raljoomshopsearch.xml</filename>
+	</files>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="nameral" type="checkbox" label="Show Name" description="Show the name field for search" value="1" default="1"/>
+				<field name="categoriesral" type="checkbox" label="Show Categories" description="Show the categories list for search" value="1" default="1" />
+				<field name="manufacturesral" type="checkbox" label="Show Manufactures" description="Show the manufactures list field for search" value="1" default="1" />
+				<field name="pricefromral" type="checkbox" label="Show Price From" description="Show the price from field for search" value="1" default="1"/>
+				<field name="pricetoral" type="checkbox" label="Show Price To" description="Show the price to  field for search" value="1" default="1"/>
+				<field name="datefromral" type="checkbox" label="Show Date From" description="Show the Date From field for search" value="1" default="1"/>
+				<field name="datetoral" type="checkbox" label="Show Date To" description="Show the Date To field for search" value="1" default="1"/>
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

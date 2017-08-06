@@ -1,0 +1,7 @@
+RewriteEngine On 
+
+# always run through the indexfile
+RewriteRule .$ index.php
+
+# don't let people peek into directories without an index file
+Options -Indexes

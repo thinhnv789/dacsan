@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2" client="site" method="upgrade">
+
+<!-- Author Block -->
+	<name>Vina Product Carousel for JShopping</name>
+	<author>VinaGecko.com</author>
+	<creationDate>July 15, 2014</creationDate>
+	<copyright>Copyright (C) 2014 VinaGecko.com. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenseses/gpl-3.0.html GNU/GPL</license>
+	<authorEmail>admin@vinagecko.com</authorEmail>
+	<authorUrl>http://VinaGecko.com</authorUrl>
+	<version>1.1.0</version>
+
+<!-- Description Block -->
+	<description>
+		<![CDATA[<div style="border: 1px solid red; border-radius: 7px; padding: 10px;">
+			We are pleased to announce that we have released new module for <strong>Joomla 3.x and JoomShopping Component</strong>: <strong>Vina Product Carousel for JShopping</strong>. This module will help you to show more products of <strong>JoomShopping Component</strong> in beautiful responsive carousel slider. It has options for setting the pagination/sliding speed, enabling/disabling autoplay, showing bullet navigation and more.<br><br>
+			<strong>VinaGecko.com</strong> - Premium <a href="http://vinagecko.com/joomla-modules" target="_blank">Joomla Modules</a>, <a href="http://vinagecko.com/joomla-plugins" target="_blank">Joomla Plugins</a>, <a href="http://vinagecko.com/joomla-templates" target="_blank">Joomla Templates</a>.
+		</div>]]>
+	</description>
+
+<!-- Files upload Block -->	
+	<files>
+		<filename module="mod_vina_carousel_jshopping">mod_vina_carousel_jshopping.php</filename>
+		<filename>index.html</filename>
+		<filename>helper.php</filename>
+		<filename>elements.php</filename>
+		<folder>libs</folder>
+		<folder>assets</folder>
+		<folder>languages</folder>
+		<folder>tmpl</folder>
+	</files>
+
+<!-- Languages Block -->
+	<languages>
+		<language tag="en-GB">languages/en-GB.mod_vina_carousel_jshopping.ini</language>
+	</languages>
+	
+<!-- Config Block -->
+	<config>
+		<fields name="params">
+			<!-- Basic Block -->
+			<fieldset name="basic">
+				<field
+                    name="moduleWidth"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_MWIDTH"
+                    default="100%"
+                    description="VINA_CAROUSEL_JSHOPPING_MWIDTH_DESC" />
+				<field
+                    name="moduleHeight"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_MHEIGHT"
+                    default="auto"
+                    description="VINA_CAROUSEL_JSHOPPING_MHEIGHT_DESC" />
+				<field
+                    name="moduleMargin"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_MMARGIN"
+                    default="0px"
+                    description="VINA_CAROUSEL_JSHOPPING_MMARGIN_DESC" />
+				<field
+                    name="modulePadding"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_MPADDING"
+                    default="10px 5px"
+                    description="VINA_CAROUSEL_JSHOPPING_MPADDING_DESC" />
+				<field
+					name="bgImage"
+					type="media" 
+					label="VINA_CAROUSEL_JSHOPPING_BACKGROUND_IMAGE" 
+					description="VINA_CAROUSEL_JSHOPPING_BACKGROUND_IMAGE_DESC" 
+					size="30"
+					default="" />
+				<field 
+                    name="isBgColor" 
+                    type="radio" 
+                    default="1" 
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_IS_BG_COLOR" 
+                    description="VINA_CAROUSEL_JSHOPPING_IS_BG_COLOR_DESC">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+				<field
+					name="bgColor"
+					type="color" 
+					label="VINA_CAROUSEL_JSHOPPING_BG_COLOR" 
+					description="VINA_CAROUSEL_JSHOPPING_BG_COLOR_DESC" 
+					size="30"
+					default="#CCCCCC" />
+				
+				<field type="spacer" name="@item" hr="true" />
+				<field
+                    name="itemMargin"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_IMARGIN"
+                    default="0 5px"
+                    description="VINA_CAROUSEL_JSHOPPING_IMARGIN_DESC" />
+				<field
+                    name="itemPadding"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_IPADDING"
+                    default="10px"
+                    description="VINA_CAROUSEL_JSHOPPING_IPADDING_DESC" />
+				<field 
+                    name="isItemBgColor" 
+                    type="radio" 
+                    default="1" 
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_IS_ITEM_BGCOLOR" 
+                    description="VINA_CAROUSEL_JSHOPPING_IS_ITEM_BGCOLOR_DESC">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+				<field
+					name="itemBgColor"
+					type="color" 
+					label="VINA_CAROUSEL_JSHOPPING_ITEM_BGCOLOR" 
+					description="VINA_CAROUSEL_JSHOPPING_ITEM_BGCOLOR_DESC" 
+					size="30"
+					default="#FFFFFF" />
+				<field
+					name="itemTextColor"
+					type="color" 
+					label="VINA_CAROUSEL_JSHOPPING_ITEM_TEXT_COLOR" 
+					description="VINA_CAROUSEL_JSHOPPING_ITEM_TEXT_COLOR_DESC" 
+					size="30"
+					default="#333333" />
+				<field
+					name="itemLinkColor"
+					type="color" 
+					label="VINA_CAROUSEL_JSHOPPING_ITEM_LINK_COLOR" 
+					description="VINA_CAROUSEL_JSHOPPING_ITEM_LINK_COLOR_DESC" 
+					size="30"
+					default="#0088CC" />
+			</fieldset>
+			
+			<!-- Source Block -->
+			<fieldset name="carousel">
+				<field
+                    name="items"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_ITEMS"
+                    default="4"
+                    description="VINA_CAROUSEL_JSHOPPING_ITEMS_DESC" />
+				<field
+                    name="itemsDesktop"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_ITEMS_DESKTOP"
+                    default="[1170,4]"
+                    description="VINA_CAROUSEL_JSHOPPING_ITEMS_DESKTOP_DESC" />
+				<field
+                    name="itemsDesktopSmall"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_ITEMS_DESKTOP_SMALL"
+                    default="[980,3]"
+                    description="VINA_CAROUSEL_JSHOPPING_ITEMS_DESKTOP_SMALL_DESC" />
+				<field
+                    name="itemsTablet"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_ITEMS_TABLET"
+                    default="[800,3]"
+                    description="VINA_CAROUSEL_JSHOPPING_ITEMS_TABLET_DESC" />
+				<field
+                    name="itemsTabletSmall"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_ITEMS_TABLET_SMALL"
+                    default="[650,2]"
+                    description="VINA_CAROUSEL_JSHOPPING_ITEMS_TABLET_SMALL_DESC" />
+				<field
+                    name="itemsMobile"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_ITEMS_MOBILE"
+                    default="[450,1]"
+                    description="VINA_CAROUSEL_JSHOPPING_ITEMS_MOBILE_DESC" />
+				
+				<field type="spacer" name="@carousel" hr="true" />
+				<field
+                    name="singleItem"
+                    type="radio"
+                    default="0"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_SINGLE_ITEM"
+                    description="VINA_CAROUSEL_JSHOPPING_SINGLE_ITEM_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="itemsScaleUp"
+                    type="radio"
+                    default="0"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_ITEMS_SCALEUP"
+                    description="VINA_CAROUSEL_JSHOPPING_ITEMS_SCALEUP_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="slideSpeed"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_SLIDE_SPEED"
+                    default="200"
+                    description="VINA_CAROUSEL_JSHOPPING_SLIDE_SPEED_DESC" />
+				<field
+                    name="paginationSpeed"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_PAGINATION_SPEED"
+                    default="800"
+                    description="VINA_CAROUSEL_JSHOPPING_PAGINATION_SPEED_DESC" />
+				<field
+                    name="rewindSpeed"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_REWIND_SPEED"
+                    default="1000"
+                    description="VINA_CAROUSEL_JSHOPPING_REWIND_SPEED_DESC" />
+				<field
+                    name="autoPlay"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_AUTOPLAY"
+                    default="5000"
+                    description="VINA_CAROUSEL_JSHOPPING_AUTOPLAY_DESC" />
+				<field
+                    name="stopOnHover"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_STOP_ON_HOVER"
+                    description="VINA_CAROUSEL_JSHOPPING_STOP_ON_HOVER_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="navigation"
+                    type="radio"
+                    default="0"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_NAVIGATION"
+                    description="VINA_CAROUSEL_JSHOPPING_NAVIGATION_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="rewindNav"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_REWIN_NAV"
+                    description="VINA_CAROUSEL_JSHOPPING_REWIN_NAV_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="scrollPerPage"
+                    type="radio"
+                    default="0"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_SCROLL_PER_PAGE"
+                    description="VINA_CAROUSEL_JSHOPPING_SCROLL_PER_PAGE_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="pagination"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_PAGINATION"
+                    description="VINA_CAROUSEL_JSHOPPING_PAGINATION_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="paginationNumbers"
+                    type="radio"
+                    default="0"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_PAGINATION_NUMBERS"
+                    description="VINA_CAROUSEL_JSHOPPING_PAGINATION_NUMBERS_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="responsive"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_RESPONSIVE"
+                    description="VINA_CAROUSEL_JSHOPPING_RESPONSIVE_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="autoHeight"
+                    type="radio"
+                    default="0"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_AUTO_HEIGHT"
+                    description="VINA_CAROUSEL_JSHOPPING_AUTO_HEIGHT_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="mouseDrag"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_MOUSE_DRAG"
+                    description="VINA_CAROUSEL_JSHOPPING_MOUSE_DRAG_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="touchDrag"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_TOUCH_DRAG"
+                    description="VINA_CAROUSEL_JSHOPPING_TOUCH_DRAG_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+			</fieldset>
+			
+			<!-- Source Block -->
+			<fieldset name="source">
+				<field
+					name="moduleType"
+					type="list"
+					default="2"
+					label="VINA_CAROUSEL_JSHOPPING_MODULE_TYPE"
+					description="VINA_CAROUSEL_JSHOPPING_MODULE_TYPE_DESC">
+						<option value="1">Best Seller</option>
+						<option value="2">Latest Products</option>
+						<option value="3">Top Hits</option>
+						<option value="4">Top Rating</option>
+						<option value="5">Label Products</option>
+				</field>
+				<field  
+                    name="label_id" 
+                    type="labels" 
+                    size="5" 
+                    default=""                    
+                    label="VINA_CAROUSEL_JSHOPPING_LABEL" 
+                    description="VINA_CAROUSEL_JSHOPPING_LABEL_DESC" 
+                    addfieldpath="/modules/mod_vina_carousel_jshopping/libs/elements"/>
+				<field  
+                    name="catids" 
+                    type="categories" 
+                    size="5" 
+                    default=""                    
+                    label="VINA_CAROUSEL_JSHOPPING_CATEGORIES" 
+                    description="VINA_CAROUSEL_JSHOPPING_CATEGORIES_DESC" 
+                    addfieldpath="/modules/mod_vina_carousel_jshopping/libs/elements"/>
+				<field
+                    name="noProducts"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_NO_PRODUCTS"
+                    default="12"
+                    description="VINA_CAROUSEL_JSHOPPING_NO_PRODUCTS_DESC" />
+				<field
+                    name="showTitle"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_SHOW_TITLE"
+                    description="VINA_CAROUSEL_JSHOPPING_SHOW_TITLE_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="showRateReview"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_SHOW_RATE_REVIEW"
+                    description="VINA_CAROUSEL_JSHOPPING_SHOW_RATE_REVIEW_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="showImage"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_SHOW_IMAGE"
+                    description="VINA_CAROUSEL_JSHOPPING_SHOW_IMAGE_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="showLabel"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_SHOW_LABEL"
+                    description="VINA_CAROUSEL_JSHOPPING_SHOW_LABEL_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="resizeImage"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_RESIZE_IMAGE"
+                    description="VINA_CAROUSEL_JSHOPPING_RESIZE_IMAGE_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="imageWidth"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_IMAGE_WIDTH"
+                    default="250"
+                    description="VINA_CAROUSEL_JSHOPPING_IMAGE_WIDTH_DESC" />
+				<field
+                    name="imageHeight"
+                    type="text"
+                    label="VINA_CAROUSEL_JSHOPPING_IMAGE_HEIGHT"
+                    default="200"
+                    description="VINA_CAROUSEL_JSHOPPING_IMAGE_HEIGHT_DESC" />
+				<field
+                    name="showPrice"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_SHOW_PRICE"
+                    description="VINA_CAROUSEL_JSHOPPING_SHOW_PRICE_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+				<field
+                    name="showIntro"
+                    type="radio"
+                    default="1"
+					class="btn-group btn-group-yesno"
+                    label="VINA_CAROUSEL_JSHOPPING_SHOW_INTROTEXT"
+                    description="VINA_CAROUSEL_JSHOPPING_SHOW_INTROTEXT_DESC">
+						<option value="0">JNO</option>
+						<option value="1">JYES</option>
+                </field>
+			</fieldset>
+			
+			<!-- Advanced Block -->
+			<fieldset name="advanced">
+				<field
+					name="moduleclass_sfx"
+					type="textarea" rows="3"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="1"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+						<option value="1">JGLOBAL_USE_GLOBAL</option>
+						<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field
+					name="cache_time"
+					type="text"
+					default="900"
+					label="COM_MODULES_FIELD_CACHE_TIME_LABEL"
+					description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

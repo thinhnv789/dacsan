@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <field name="version" type="backupversions" label="JSHOPPING_ADDON_BACKUP_VERSION" description="JSHOPPING_ADDON_BACKUP_VERSION_DESCRIPTION" default="__current" />
+    <field name="db" type="list" label="JSHOPPING_ADDON_BACKUP_DB" description="JSHOPPING_ADDON_BACKUP_DB_DESCRIPTION" default="1">
+        <option value="1">JYES</option>
+        <option value="0">JNO</option>
+    </field>
+    <field name="files" type="backupfiles" label="JSHOPPING_ADDON_BACKUP_FILES" description="JSHOPPING_ADDON_BACKUP_FILES_DESCRIPTION" multiple="true" size="12" />
+</form>

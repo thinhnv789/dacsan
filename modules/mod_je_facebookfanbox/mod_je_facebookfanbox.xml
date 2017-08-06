@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.4" type="module" client="site" method="upgrade">
+	<name>JE FaceBook FanBox</name> 
+    <version>3.3</version>
+    <creationDate>February, 2015</creationDate>
+    <author>jExtensions.com</author>
+    <authorEmail>support@jExtensions.com</authorEmail>
+    <authorUrl>http://jExtensions.com</authorUrl>
+    <copyright>Copyright 2015 - jExtensions.com</copyright>
+    <license>GNU/GPL</license>
+	<description><![CDATA[
+	<h1 class="sub-heading">JE FaceBook FanBox</h1>	
+	<div class="description">Download more free extensions from <a href="http://jextensions.com/" target="_blank">jExtensions.com</a><br/>
+	Need help? <a href="http://jextensions.com/facebook-fanbox-for-joomla/" target="_blank">Click here to visit the support page</a>.<br/>
+	</div>
+		]]>
+	</description>
+	
+	<files>
+		<filename module="mod_je_facebookfanbox">mod_je_facebookfanbox.php</filename>
+		<filename>index.html</filename>
+		<folder>css/</folder>
+		<folder>js/</folder>
+		<folder>php/</folder>
+	</files>
+
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_je_facebookfanbox/php">
+		<fieldset name="basic">
+			<field name="Language" type="list" default="en_US" label="Language" description="Choose your language here.">
+				<option value="af_ZA">Afrikaans</option>
+				<option value="ar_AR">Arabic</option>
+				<option value="az_AZ">Azerbaijani</option>
+				<option value="be_BY">Belarusian</option>
+				<option value="bg_BG">Bulgarian</option>
+				<option value="bn_IN">Bengali</option>
+				<option value="bs_BA">Bosnian</option>
+				<option value="ca_ES">Catalan</option>
+				<option value="cs_CZ">Czech</option>
+				<option value="cx_PH">Cebuano</option>
+				<option value="cy_GB">Welsh</option>
+				<option value="da_DK">Danish</option>
+				<option value="de_DE">German</option>
+				<option value="el_GR">Greek</option>
+				<option value="en_GB">English (UK)</option>
+				<option value="en_PI">English (Pirate)</option>
+				<option value="en_UD">English (Upside Down)</option>
+				<option value="en_US">English (US)</option>
+				<option value="eo_EO">Esperanto</option>
+				<option value="es_ES">Spanish (Spain)</option>
+				<option value="es_LA">Spanish</option>
+				<option value="et_EE">Estonian</option>
+				<option value="eu_ES">Basque</option>
+				<option value="fa_IR">Persian</option>
+				<option value="fb_LT">Leet Speak</option>
+				<option value="fi_FI">Finnish</option>
+				<option value="fo_FO">Faroese</option>
+				<option value="fr_CA">French (Canada)</option>
+				<option value="fr_FR">French (France)</option>
+				<option value="fy_NL">Frisian</option>
+				<option value="ga_IE">Irish</option>
+				<option value="gl_ES">Galician</option>
+				<option value="gn_PY">Guarani</option>
+				<option value="gu_IN">Gujarati</option>
+				<option value="he_IL">Hebrew</option>
+				<option value="hi_IN">Hindi</option>
+				<option value="hr_HR">Croatian</option>
+				<option value="hu_HU">Hungarian</option>
+				<option value="hy_AM">Armenian</option>
+				<option value="id_ID">Indonesian</option>
+				<option value="is_IS">Icelandic</option>
+				<option value="it_IT">Italian</option>
+				<option value="ja_JP">Japanese</option>
+				<option value="ja_KS">Japanese (Kansai)</option>
+				<option value="jv_ID">Javanese</option>
+				<option value="ka_GE">Georgian</option>
+				<option value="kk_KZ">Kazakh</option>
+				<option value="km_KH">Khmer</option>
+				<option value="kn_IN">Kannada</option>
+				<option value="ko_KR">Korean</option>
+				<option value="ku_TR">Kurdish</option>
+				<option value="la_VA">Latin</option>
+				<option value="lt_LT">Lithuanian</option>
+				<option value="lv_LV">Latvian</option>
+				<option value="mk_MK">Macedonian</option>
+				<option value="ml_IN">Malayalam</option>
+				<option value="mn_MN">Mongolian</option>
+				<option value="mr_IN">Marathi</option>
+				<option value="ms_MY">Malay</option>
+				<option value="nb_NO">Norwegian (bokmal)</option>
+				<option value="ne_NP">Nepali</option>
+				<option value="nl_NL">Dutch</option>
+				<option value="nn_NO">Norwegian (nynorsk)</option>
+				<option value="pa_IN">Punjabi</option>
+				<option value="pl_PL">Polish</option>
+				<option value="ps_AF">Pashto</option>
+				<option value="pt_BR">Portuguese (Brazil)</option>
+				<option value="pt_PT">Portuguese (Portugal)</option>
+				<option value="ro_RO">Romanian</option>
+				<option value="ru_RU">Russian</option>
+				<option value="si_LK">Sinhala</option>
+				<option value="sk_SK">Slovak</option>
+				<option value="sl_SI">Slovenian</option>
+				<option value="sq_AL">Albanian</option>
+				<option value="sr_RS">Serbian</option>
+				<option value="sv_SE">Swedish</option>
+				<option value="sw_KE">Swahili</option>
+				<option value="ta_IN">Tamil</option>
+				<option value="te_IN">Telugu</option>
+				<option value="tg_TJ">Tajik</option>
+				<option value="th_TH">Thai</option>
+				<option value="tl_PH">Filipino</option>
+				<option value="tr_TR">Turkish</option>
+				<option value="uk_UA">Ukrainian</option>
+				<option value="ur_PK">Urdu</option>
+				<option value="uz_UZ">Uzbek</option>
+				<option value="vi_VN">Vietnamese</option>
+				<option value="zh_CN">Simplified Chinese (China)</option>
+				<option value="zh_HK">Traditional Chinese (Hong Kong)</option>
+				<option value="zh_TW">Traditional Chinese (Taiwan)</option>
+			</field>
+			
+			<field name="Url" type="text" default="https://www.facebook.com/joomla/" label="Your Facebook Page" description="Add the url of your Facebook page here. (ie: https://www.facebook.com/joomla/)" />	
+			
+			<field name="Width" type="text" default="200" label="Width" description="Maxiumum width of the box." />	
+			<field name="Height" type="text" default="300" label="Height" description="Maximum height of the box." />
+			
+			<field name="Color" type="list" default="light" label="Color Scheme" description="Choose a color scheme.">
+				<option value="light">Light</option>
+				<option value="dark">Dark</option>
+			</field>
+			<field name="bgColor" type="jscolor" default="none" label="Background Color" description="" />
+			<field name="Border" type="list" default="true" label="Border" description="Enable or disable box border.">
+				<option value="true">Enable</option>
+				<option value="false">Disable</option>
+			</field>
+			<field name="Stream" type="list" default="false" label="Stream" description="Show or hide the post stream.">
+				<option value="true">Show</option>
+				<option value="false">Hide</option>
+			</field>
+			<field name="Faces" type="list" default="true" label="Faces" description="Show or hide fan faces.">
+				<option value="true">Show</option>
+				<option value="false">Hide</option>
+			</field>
+						
+			<field type="asset" />		
+		</fieldset>
+					
+	</fields>
+	</config>
+</extension>

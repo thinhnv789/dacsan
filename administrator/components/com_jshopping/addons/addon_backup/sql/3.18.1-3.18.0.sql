@@ -1,0 +1,1 @@
+ALTER TABLE `#__jshopping_products_relations` DROP COLUMN `id`;

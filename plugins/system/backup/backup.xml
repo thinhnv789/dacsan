@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" method="upgrade" group="system">
+    <name>JoomShopping - Backup</name>
+    <creationDate>13.05.2014</creationDate>
+    <version>1.0.0</version>
+    <files>
+		<filename plugin="backup">backup.php</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>

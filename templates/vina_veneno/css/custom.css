@@ -1,0 +1,883 @@
+.image_category_block {
+    margin-bottom: 35px;
+    display: none;
+}
+
+#megamenucss #js-mainnav.megamenu ul.level0 li.megacss span.megacss, #megamenucss #js-mainnav.megamenu ul.level0 li.megacss a.megacss {
+    display: block;
+    line-height: normal;
+    margin: 0;
+    padding: 6px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.row-fluid {
+    margin-bottom: 3px;
+}
+
+#megamenucss #js-mainnav.megamenu .childcontent .moduletable h3 {
+    color: red;
+}
+
+
+.detailsRight .prod_buttons span.btn_add, .detailsRight .prod_buttons span.btn_wishlist {
+    padding: 6px 20px;
+    background: #fcb039;
+    text-align: center;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    border-radius: 20px !important;
+}
+
+
+h1 {
+    font-size: 16.5px;
+    color: #fcb039;
+}
+.vina-cmenu-jshopping > ul > li > a {
+    text-transform: none;
+}
+
+#sp-hot-sale-wrapper {
+    margin-top: 1px;
+}
+
+#sp-message-area h3.header span {
+    text-transform: none;
+    font: 18px/20px CalibriBold, arial;
+    padding-left: 25px;
+    padding-right: 5px;
+    display: inline-block;
+    margin: 0;
+}
+
+
+#megamenucss .red.megamenu ul.level0 > li.megacss:hover > a.megacss, #megamenucss #js-mainnav.megamenu.red ul.level0 li.active {
+    background: #e60f1e!important;
+    color: #ffffff!important;
+}
+
+
+#megamenucss #js-mainnav.megamenu ul.level0 li.megacss span.megacss, #megamenucss #js-mainnav.megamenu ul.level0 li.megacss a.megacss {
+    border-bottom: 1px solid #E2E2E2;
+}
+
+
+#js-mainnav.megamenu.red .childcontent-inner {
+    background-color: #fbfbfb !important;
+    color: #fff;
+    border: 1px solid #e8e8e8 !important;
+}
+
+
+#js-mainnav.megamenu.red ul.level0 li.megacss span.megacss, #js-mainnav.megamenu.red ul.level0 li.megacss a.megacss, #js-mainnav.megamenu.red .megaMenuToggle {
+    padding: 10px 5px 12px 6px;
+    color: #0a0a0a !important;
+}
+
+#megamenucss #js-mainnav.red .js-megamenu {
+    background: #ffffff !important;
+}
+
+
+article {
+    display: block;
+    background: white;
+    padding: 3px;
+}
+
+.article-text, .article_content, .catItemIntroText {
+    float: left;
+    background: white;
+    padding: 3px;
+}
+
+
+.detailsRight .prod_buttons span.btn_add, .detailsRight .prod_buttons span.btn_wishlist {
+    padding: 6px 20px;
+    background: #fcb039;
+    text-align: center;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    border-radius: 20px !important;
+    -webkit-border-radius: 20px !important;
+    -moz-border-radius: 20px !important;
+    border-radius: 20px !important;
+}
+
+
+.tab-block .nav-pills>li>a {
+    font-size: 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: arial;
+}
+
+.tab-block .nav-pills>li>a:hover, .tab-block .nav-pills>li.active>a, .tab-block .nav-pills>li>a:focus {
+    background-color: #fcb039;
+}
+
+#sp-breadcrumb-wrapper {
+    background: rgb(237, 236, 236) !important;
+}
+
+#order_add_info {
+    height: 70px;
+    width: 100%;
+}
+
+.btn-primary, button, input[type='submit'], input[type='button'], submit {
+    background: #fcb039;
+    color: white;
+    padding: 6px;
+}
+
+.jshop #checkout a {
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    background: #fcb039;
+    padding: 6px;
+}
+
+
+.form-horizontal .controls {
+    margin-left: 80px;
+}
+
+.form-horizontal .control-label {
+    float: left;
+    width: 60px;
+    padding-top: 5px;
+    text-align: left;
+}
+
+#sp-bottom-wrapper h3.header {
+    font-size: 16px;
+    padding-left: 0px;
+    margin-bottom: 15px;
+}
+#sp-bottom-wrapper a:not(.btn) {
+    color: #A7A7A7;
+}
+
+#sp-bottom-wrapper h3.header {
+    background: url(../../images/presets/preset4/bg_vina_title.png) no-repeat center left;
+    color: white;
+}
+
+#sp-bottom-wrapper {
+    background-color: #000000;
+    padding: 20px 0 30px;
+  color: #949494;
+}
+
+#sp-left >div:first-child, #sp-left >div.vina_categories, #sp-right >div:first-child, #sp-right >div.vina_categories {
+    margin: 0px;
+    border: 1px solid #ededed;
+}
+
+
+.jshop_short_description {
+    border: 1px dashed #e62e04;
+    padding: 10px 10px 10px 10px;
+}
+.extra_fields div {
+    border-bottom: 1px solid #E2E2E2 !important;
+    line-height: 30px;
+}
+.extra_fields div {
+    border-bottom: 1px solid #E2E2E2 !important;
+    line-height: 30px;
+}
+.extra_fields_value {
+    font-size: 14px;
+    font-weight: bold !important;
+    color: #990000 !important;
+}
+
+.main_image.thumbnail {
+background: white;
+ 
+}
+
+#div.jshop.productfull 
+{
+    background: white;
+    padding: 5px;
+}
+
+
+#sp-bottom-link-follow-wrapper h3, #sp-bottom-wrapper h3 {
+    text-transform: none;
+}
+
+
+#jshop_module_cart .my_cart {
+    text-transform: none;
+}
+
+#sp-main-menu ul.level-0 > li:hover, #sp-main-menu ul.level-0 > li.active {
+    background: #fcb039;
+}
+
+#vina_services h3.vina-title, .vina-our-work h3.vina-title, .our-project h3.vina-title, .our-price h3.vina-title, #sp-our-team h3.vina-title {
+    display: inline-block;
+    position: relative;
+    padding-bottom: 10px;
+    background: #f7972b;
+    padding: 10px 26px;
+    color: white;
+}
+
+#sp-logo {
+    line-height: 100px;
+}
+
+
+.jshop_price span {
+    font-size: 16px !important;
+    font-weight: normal !important;
+    color: #e00 !important;
+}
+
+.block_item .item_inner {
+    padding: 3% 3%;
+    border: 1px solid #EFEFEF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0,0,0,0);
+  background: white;
+}
+
+
+#sp-our-portfolio-wrapper, #sp-about-us-wrapper {
+    padding: 10px 0 0;
+}
+
+
+@media (max-width: 979px) and (min-width: 768px)
+.visible-desktop {
+    display: none!important;
+}
+
+.search_layout3 .vina_search input {
+    margin-bottom: 0;
+    padding: 6px !important;
+    border: 0px solid #ccc;
+    max-width: 170px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.vina_price {
+    float: none;
+    line-height: 15px;
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+    height: auto;
+}
+
+.vina_content .name a, .vina_content .name h1 {
+    line-height: 24px!important;
+    height: 20px;
+}
+
+.jshop .row-fluid:first-child {
+    margin-bottom: 2px;
+}
+
+#sp-phone .module #jshop_module_cart {
+    padding: 0 3px;
+    border-left: 1px solid #fff;
+}
+
+.search_layout3 .vina_search input {
+    margin-bottom: 0;
+    padding: 6px !important;
+    border: 0px solid #ccc;
+    max-width: 170px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.module .sp_strong h3.header {
+    font-family: Calibri;
+    font-size: 17px !important;
+}
+
+#vina-cmenu-jshopping289, #vina-cmenu-jshopping289 > ul {
+    background-color: #1b5401;
+    width: auto;
+    z-index: 10;
+}
+
+
+.jshop_short_description {
+    border: 0px dashed #e62e04;
+    padding: 10px 10px 10px 0px;
+}
+.extra_fields div {
+    border-bottom: 1px solid #E2E2E2 !important;
+    line-height: 30px;
+}
+.extra_fields div {
+    border-bottom: 1px solid #E2E2E2 !important;
+    line-height: 30px;
+}
+.extra_fields_value {
+    font-size: 14px;
+    font-weight: bold !important;
+    color: #990000 !important;
+}
+
+input[type='submit'], button, .btn, .vina-button {
+    font: normal 14px/20px arial, Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: red;
+    padding: 6px 28px;
+    font-size: 20px;
+}
+
+#sp-left h3.header, #sp-right h3.header {
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0 10px 45px !important;
+    background: url(../images/bg-block.png) no-repeat 15px 50%;
+}
+
+#sp-main-menu ul.level-0 > li >a {
+    font-size: 18px !important;
+    display: block;
+    margin: 0;
+    padding: 12px 16px;
+    color: #fff;
+    text-transform: uppercase;
+    background-position: 100% 50% no-repeat;
+}
+.tab_btn ul.nav li a {
+    float: left;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222222;
+    border-right: 2px solid #fff;
+    padding: 13px 30px !important;
+    background-color: #f4f4f4;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+}
+
+
+#sp-left h3.header, #sp-right h3.header {
+    font-size: 15px;
+    margin: 0;
+    padding: 10px 0 10px 45px !important;
+    background: url(../images/bg-block.png) no-repeat 15px 50%;
+}
+
+#sp-main-menu ul.level-0 > li >a {
+    font-size: 16px !important;
+    display: block;
+    margin: 0;
+    padding: 12px 16px;
+    color: #fff;
+    text-transform: none;
+    background-position: 100% 50% no-repeat;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+  .jshop.list_product .block_item,
+  .latest_products.jshop .block_item  {
+      float: left;
+      width: 48%;
+      margin-bottom: 20px;
+      margin-right: 4%;
+      margin-left: 0;
+  }
+  .jshop.list_product .block_item:nth-child(2n),
+   .latest_products.jshop .block_item:nth-child(2n){
+      margin-right: 0;
+  }
+  .responsive .top_hits_products .block_item .item_inner {
+    width: 100%;
+  }
+  .responsive .top_hits_products .block_item{
+    width: 100%;
+    margin: 0;
+  }
+  .responsive .top_hits_products .block_item .item_inner .vina_content {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 0;
+   }
+   .responsive .top_hits_products .block_item .item_inner .image {
+     width: 50%;
+     float: left;
+   }
+}
+@media (max-width: 800px) and (min-width: 760px){
+  aside#sp-left {
+    display: inline-block;
+    width: 30%;
+    float: left;
+  }
+  #sp-message-area {
+    width: 65%;
+    float: left;
+    margin-left: 5%;
+  }
+}
+
+.text-block h4.title {
+    word-wrap: break-word;
+    display: block;
+    font-family: CalibriBold;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 14px !important;
+}
+
+.buttons a.button_detail, .buttons a.button_wishlist {
+    display:none !important;
+}
+
+
+.name a {
+    display: inline-block;
+    font-size: 16px;
+    color: #444;
+    margin: 0 0 5px;
+    color: #000000 !important;
+}
+
+.buttons a.button_buy :before {
+    content: "\f06e";
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    display: inline;
+    width: auto;
+    height: auto;
+    line-height: normal;
+    vertical-align: baseline;
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    margin-top: 0;
+    color: #909090;
+}
+
+.box-col-inner .media-body h3, .banner-bottom-inner .media-body h3 {
+    font: 16px/20px Arial, Helvetica, sans-serif;
+    text-transform: none;
+    margin: 0;
+    color: #F7972B !important;
+}
+
+#sp-left .vina_categories h3.header, #sp-right .vina_categories h3.header {
+    border-bottom: 0px solid #c60920;
+    background: #ff5c01 url(../images/bg_category.png) no-repeat 20px 50% !important;
+}
+
+p {
+    margin: 1px !important;
+}
+
+#sp-top-wrapper {
+    background-color: #e0e0e0;
+}
+#sp-phone {
+    text-align: right;
+    color: #fff;
+    padding: 6px 0;
+}
+
+#sp-main-menu-wrapper {
+    position: relative;
+    background-color: #e60f1e;
+    padding: 2px;
+}
+
+#vina-cmenu-vertical-jshopping290 > ul > li > a {
+    font-size: 14px;
+    color: #ffffff;
+    border-right: 4px solid #535559;
+    background: #F5F4F4;
+}
+#vina-cmenu-vertical-jshopping290, #vina-cmenu-vertical-jshopping290 > ul {
+    background: rgba(245, 244, 244, 0.35) !important;
+    width: auto;
+}
+h3.header.vina-title :before {
+    background: none;
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-right: 122px;
+    vertical-align: middle;
+    border-top: 20px solid transparent;
+    border-right: 18px solid #f7972b;
+    border-left: 0 solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    left: -18px;
+}
+h3.header.vina-title :after {
+    background: none;
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: 122px;
+    vertical-align: middle;
+    border-top: 20px solid transparent;
+    border-left: 18px solid #f7972b;
+    border-right: 0 solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    top: 0;
+    right: -18px;
+}
+#vina-cmenu-vertical-jshopping290, #vina-cmenu-vertical-jshopping290 > ul {
+    background: rgba(245, 244, 244, 0.35) !important;
+    width: auto;
+}
+#vina-cmenu-vertical-jshopping278, #vina-cmenu-vertical-jshopping278 > ul {
+    background: white !important;
+    width: auto;
+}
+#vina-cmenu-vertical-jshopping201 > ul > li > a {
+    font-size: 14px;
+    color: #ffffff;
+    border-bottom: 0px solid #E2E2E2 !important;
+}
+
+#vina-cmenu-vertical-jshopping201 ul ul li a {
+    width: 150px;
+    font-size: 12px;
+    color: #10120d;
+    border-bottom: 0px solid #eeeeee !important;
+    background-color: #ffffff;
+}
+
+.cmenu_jshopping_block {
+    color: #666666;
+    
+}
+#vina-cmenu-vertical-jshopping201 ul ul li a {
+    width: 150px;
+    font-size: 12px;
+    color: #10120d;
+    background-color: #ffffff;
+}
+#vina-cmenu-vertical-jshopping201 > ul > li > a {
+    color: #D60722 !important; 
+}
+.vina-cmenu-vertical-jshopping ul ul li a {
+    width: auto !important;
+}
+.vina-cmenu-vertical-jshopping a {
+    display: block;
+    padding: 10px !important;
+    color: #ffffff;
+    text-decoration: none;
+  border-bottom: 1px solid #E2E2E2;
+    text-transform: none !important;
+}
+.vina-cmenu-vertical-jshopping ul li {
+    float: none;
+   
+}
+#vina-cmenu-vertical-jshopping201 ul ul li.active > a, #vina-cmenu-vertical-jshopping201 ul ul li:hover > a {
+    color: #10120d !important;
+    background-color: #fac51c;
+}
+
+body {
+    color: #000000 !important;
+      font-size: 15px; !important
+}
+#sp-advanced-search .btn, #sp-advanced-search .button {
+    width: auto !important;
+    height: 40px;
+    margin: 0;
+    padding: 0px;
+    border-radius: 0px 15px 15px 0px !important;
+    font-family: arial !important;
+    padding: 0 15px !important;
+}
+#sp-advanced-search .inputbox {
+    float: left;
+    text-align: left;
+    border: 0;
+    background: rgba(210, 201, 207, 0.26);
+    box-shadow: none;
+    height: 32px;
+    margin: 0 0px 0 0 !important;
+    padding: 4px 2px 4px 15px;
+    color: #888;
+    font-size: 15px;
+    line-height: 30px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 16px 0px 0px 16px !important;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.itemsearch img {
+    border: 0px;
+    width: 55px !important;
+}
+
+/* Hiệu ứng Erida */
+.block_item .item_inner .buttons {
+    position: relative;
+  	opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    visibility: visible;
+    bottom: 0;
+}
+.buttons a.button_buy, .buttons a.button_detail, .buttons a.button_wishlist {
+    position: relative;
+    z-index: 10;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 3px 16px;
+    text-transform: none;
+    background: #ff5c01;
+    font-size: 15px;
+    line-height: 18px;
+    display: inline-block;
+    border: 0px solid #ddd;
+    color: #FFF;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    height: auto;
+    width: auto;
+}
+.vina_bottons {
+    position: relative;
+    margin: 10px auto;
+    display: inline-block;
+}
+.buttons .button_wishlist, .buttons .button_detail {
+    position: absolute !important;
+    text-indent: 0;
+    width: 40px;
+    height: 41px;
+    padding: 0;
+    bottom: 0;
+  	-webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    left: 0;
+}
+.buttons .button_wishlist {
+    right: 0;
+}
+.item_inner:hover .buttons .button_detail {
+    left: -55px;
+}
+.item_inner:hover .buttons .button_wishlist {
+    right: -55px;
+    left: auto;
+}
+.buttons a.button_buy {
+  	z-index: 20;
+}
+.block_item .item_inner .buttons i {
+    color: #fff;
+}
+.buttons a.button_detail:hover i, 
+.buttons a.button_wishlist:hover i {
+    color: #fff;
+}
+
+block_item .item_inner {
+    padding: 2%;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    margin: 2% 6%;
+}
+.block_item .item_inner:before {
+    bottom: 100%;
+    background: radial-gradient(ellipse at 50% 150%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.block_item .item_inner:after {
+    top: 100%;
+    background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 80%);
+}
+.block_item .item_inner:before, .block_item .item_inner:after {
+    pointer-events: none;
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    height: 5px;
+    opacity: 0;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: opacity;
+    transition-property: opacity;
+}
+.block_item .item_inner:hover:before, 
+.block_item .item_inner:focus:before, 
+.block_item .item_inner:active:before, 
+.block_item .item_inner:hover:after, 
+.block_item .item_inner:focus:after, 
+.block_item .item_inner:active:after {
+    opacity: 1;
+}
+
+/* Icon for menu Category Product */
+.vina-cmenu-vertical-jshopping > ul > li >a {
+	    padding-left: 30px !important;
+}
+.vina-cmenu-vertical-jshopping > ul > li:nth-child(1):after {
+ 	font-family: FontAwesome;
+    top: 8px;
+  	left: 8px;
+    content: "\f006";
+  	position: absolute;
+  	font-size: 18px;
+}
+.vina-cmenu-vertical-jshopping > ul > li:nth-child(2):after {
+ 	font-family: FontAwesome;
+    top: 8px;
+  	left: 8px;
+    content: "\f006";
+  	position: absolute;
+  	font-size: 18px;
+}
+.vina-cmenu-vertical-jshopping > ul > li:nth-child(3):after {
+ 	font-family: FontAwesome;
+    top: 8px;
+  	left: 8px;
+    content: "\f006";
+  	position: absolute;
+  	font-size: 18px;
+}
+.vina-cmenu-vertical-jshopping > ul > li:nth-child(4):after {
+ 	font-family: FontAwesome;
+    top: 8px;
+  	left: 8px;
+    content: "\f006";
+  	position: absolute;
+  	font-size: 18px;
+}
+.vina-cmenu-vertical-jshopping > ul > li:nth-child(5):after {
+ 	font-family: FontAwesome;
+    top: 8px;
+  	left: 8px;
+    content: "\f006";
+  	position: absolute;
+  	font-size: 18px;
+}
+.vina-cmenu-vertical-jshopping > ul > li:nth-child(6):after {
+ 	font-family: FontAwesome;
+    top: 8px;
+  	left: 8px;
+    content: "\f006";
+  	position: absolute;
+  	font-size: 18px;
+}
+.vina-cmenu-vertical-jshopping > ul > li:nth-child(7):after {
+ 	font-family: FontAwesome;
+    top: 8px;
+  	left: 8px;
+    content: "\f006";
+  	position: absolute;
+  	font-size: 18px;
+}
+.vina-cmenu-vertical-jshopping > ul > li:nth-child(8):after {
+ 	font-family: FontAwesome;
+    top: 8px;
+  	left: 8px;
+    content: "\f006";
+  	position: absolute;
+  	font-size: 18px;
+}
+
+/* Custom Price Style */
+.latest_products .block_item .item_inner .buttons .vina_price ,
+.list_product .block_item .item_inner .buttons .vina_price {
+	float: left;
+	width: 50%;
+	border-top: 0;
+	height: auto;
+}
+.latest_products .block_item .item_inner .buttons  a.button_buy ,
+.list_product .block_item .item_inner .buttons  a.button_buy {
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+}
+.list_product .block_item  {
+	margin-bottom: 10px;
+}
+.list_product .block_item .item_inner .buttons .vina_price .jshop_price span {
+	font-size: 18px !important;
+}
+.list_product .block_item .item_inner .buttons  a.button_buy  {
+	padding: 4px 3px;
+	font-size: 14px;
+	margin-top: 0;
+}
+.latest_products  .block_item .item_inner .buttons ,
+.list_product .block_item .item_inner .buttons {
+    width: 100%;
+	padding-top: 10px;
+}
+
+/* Add icons for Left Menu */
+#sp-left #megamenucss #js-mainnav.megamenu ul.level0 li.megacss a.haschild {
+    position: relative;
+}
+#sp-left #megamenucss #js-mainnav.megamenu ul.level0 li.megacss a.haschild:after {
+    font-family: FontAwesome;
+    font-weight: normal;
+        content: "\f054";
+    margin-left: 5px;
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    font-size: 12px;
+}

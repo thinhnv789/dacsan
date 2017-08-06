@@ -1,0 +1,1 @@
+ALTER TABLE `#__jshopping_products_relations` ADD `id` INT NOT NULL AUTO_INCREMENT PRIMARY KEY FIRST;

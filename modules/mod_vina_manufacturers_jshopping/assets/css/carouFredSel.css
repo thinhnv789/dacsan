@@ -1,0 +1,77 @@
+/*
+# ------------------------------------------------------------------------
+# Vina Manufacturers Carousel for JShopping for Joomla 3
+# ------------------------------------------------------------------------
+# Copyright(C) 2014 www.VinaGecko.com. All Rights Reserved.
+# @license http://www.gnu.org/licenseses/gpl-3.0.html GNU/GPL
+# Author: VinaGecko.com
+# Websites: http://vinagecko.com
+# Forum:    http://vinagecko.com/forum/
+# ------------------------------------------------------------------------
+*/
+.vina-manufacturers-jshopping {
+    overflow: hidden;
+    position: relative;
+}
+.vina-manufacturers-jshopping ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: block;
+}
+.vina-manufacturers-jshopping li {
+	text-align: center;
+	padding: 0;
+	display: block;
+	float: left;
+	margin: 0 5px;
+	position: relative;
+}
+.vina-manufacturers-jshopping li:hover {
+	opacity: 0.5;
+}
+.vina-manufacturers-jshopping .vina-caption {
+    width: 100%;
+}
+.vina-manufacturers-jshopping .vina-caption a {
+	font-size: 120%;
+	line-height: 30px;
+}
+.vina-manufacturers-jshopping .vina-prev,
+.vina-manufacturers-jshopping .vina-next {
+    height: 32px;
+    position: absolute;
+    top: 40%;
+    width: 32px;
+	text-indent: -10000px;
+	outline: medium none;
+	cursor: pointer;
+}
+.vina-manufacturers-jshopping .vina-prev {
+	background: url("../images/prev-horizontal.png") no-repeat;
+	background-position: 0 -32px;
+}
+.vina-manufacturers-jshopping .vina-next {
+	right: 0;
+	background: url("../images/next-horizontal.png") no-repeat;
+	background-position: 0 -32px;
+}
+.vina-manufacturers-jshopping .vina-next:hover,
+.vina-manufacturers-jshopping .vina-prev:hover,
+.vina-manufacturers-jshopping .vina-prev.active {
+	background-position: 0 0;
+	border: none;
+}
+.vina-manufacturers-jshopping .vina-pager {
+	padding: 10px 0;
+    position: relative;
+    text-align: center;
+}
+.vina-manufacturers-jshopping .vina-pager > a {
+	margin: 0 3px;
+	text-decoration: none;
+}
+.vina-manufacturers-jshopping .vina-pager > a > span {
+    border-radius: 50px;
+    padding: 1px 5px;
+}

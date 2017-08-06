@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" method="upgrade" group="jshoppingadmin">
+    <name>JoomShopping Addon admin order reload shipping</name>
+    <creationDate>33.13.2013</creationDate>
+    <version>1.0.0</version>
+    <author></author>
+    <authorEmail></authorEmail>
+    <authorUrl></authorUrl>
+    <copyright></copyright>
+    <license></license>
+    <description>JoomShopping Addon admin order reload shipping</description> 
+    <files>
+        <filename plugin="addon_admin_order_reload_shipping">addon_admin_order_reload_shipping.php</filename>
+    </files>
+</extension>

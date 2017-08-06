@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="jshoppingcheckout">
+    <name>JoomShopping - Quick Checkout</name>
+    <creationDate>25.02.2013</creationDate>
+    <version>1.0.0</version>
+    <author>MAXXmarketing GmbH</author>
+    <authorEmail>marketing@maxx-marketing.net</authorEmail>
+    <authorUrl>http://www.webdesigner-profi.de</authorUrl>
+    <copyright>Copyright (C) 2010 webdesigner-profi.de. All rights reserved</copyright>
+    <license>MAXXmarketing GmbH</license>
+    <description>JoomShopping - Quick Checkout</description>
+	<files>
+		<filename plugin = "quick_checkout">quick_checkout.php</filename>
+	</files>
+</extension>

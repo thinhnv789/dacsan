@@ -1,0 +1,41 @@
+#search-result{
+    background-color: white;    
+    color: #555555;
+    position: absolute;
+    z-index:55;
+}
+table.ajaxsearch{
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+}
+table.ajaxsearch td, table.ajaxsearch tr{
+    border:0px;    
+}
+.itemsearch .itemlink {
+	padding: 5px;
+	display: block;
+}
+.itemsearch img{
+    border:0px;
+}
+.itemsearch a:hover{
+    background: none;
+    color: #095197;
+}
+.itemsearch:hover{
+    background-color: #095197;
+    color: white;
+}
+.itemsearch:hover span{
+	color: #fff;
+}
+.img-block{
+    display: block;
+}
+.detailsearch{    
+	display: block;	
+	margin: 0 10px 0 10px;
+}
+.ajax-search-more-results{
+    
+}
