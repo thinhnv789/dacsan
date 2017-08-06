@@ -1,8 +1,8 @@
 <?php
 class JConfig {
 	public $MetaAuthor = '1';
-	public $MetaDesc = 'phudinhitc - chuyên cung cấp, tư vấn lắp đặt hệ thống camera, tổng đài, chuông cửa màn hình, máy văn phòng.';
-	public $MetaKeys = 'phudinhitc - chuyên cung cấp, tư vấn lắp đặt hệ thống camera, tổng đài, chuông cửa màn hình, máy văn phòng.';
+	public $MetaDesc = 'dacsanso1 - chuyên giới thiệu, cung cấp các món ăn đặc sản tây bắc.';
+	public $MetaKeys = 'dacsanso1 - chuyên giới thiệu, cung cấp các món ăn đặc sản tây bắc.';
 	public $MetaRights = '';
 	public $MetaTitle = '1';
 	public $MetaVersion = '0';
@@ -24,7 +24,7 @@ class JConfig {
 	public $feed_email = 'author';
 	public $feed_limit = '10';
 	public $force_ssl = '0';
-	public $fromname = 'khuong3012@gmail.com';
+	public $fromname = 'thinhnv.vnu@gmail.com';
 	public $ftp_enable = '0';
 	public $ftp_host = '';
 	public $ftp_pass = 'admin123';
