@@ -57,7 +57,7 @@ class JConfig {
 	public $sef_suffix = '1';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $session_handler = 'database';
-	public $sitename = 'CAMERA QUAN SÁT';
+	public $sitename = 'Đặc Sản Số 1';
 	public $sitename_pagetitles = '0';
 	public $smtpauth = '1';
 	public $smtphost = 'smtp.gmail.com';
@@ -65,7 +65,7 @@ class JConfig {
 	public $smtpport = '465';
 	public $smtpsecure = 'ssl';
 	public $smtpuser = 'khuong3012@gmail.com';
-	public $tmp_path = '/home/phudinhitc/domains/phudinhitc.com/public_html/tmp';
+	public $tmp_path = 'dd';
 	public $unicodeslugs = '1';
 	public $user = 'root';
 	public $mailonline = '1';
