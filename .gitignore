@@ -1,0 +1,18 @@
+# cache
+/cache
+
+# backups
+/backups
+
+# production
+/build
+
+#editor
+/.vscode
+
+# misc
+/log
+/logs
+
+# db
+/db
