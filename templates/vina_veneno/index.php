@@ -89,7 +89,6 @@ JHtml::_('formbehavior.chosen', 'select#id_currency');
 		</script>
 		<?php endif; ?>
     </body>	
-  <script lang="javascript">(function() {var pname = ( (document.title !='')? document.title : document.querySelector('h1').innerHTML );var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async=1; ga.src = '//live.vnpgroup.net/js/web_client_box.php?hash=e82a1979e368d101b8cd3a49078128be&data=eyJzc29faWQiOjQ3NDU2MjcsImhhc2giOiI0OTI5YTM0MjA2NDMyOTNjZTQzYzY2ODM0NjgwN2M5YiJ9&pname='+pname;var s = document.getElementsByTagName('script');s[0].parentNode.insertBefore(ga, s[0]);})();</script>
 </html>
 <style>
 #floating-phone { display: none; position: fixed; left: 10px; bottom: 10px; height: 50px; width: 50px; background: #46C11E url(http://callnowbutton.com/phone/callbutton01.png) center / 30px no-repeat; z-index: 99; color: #FFF; font-size: 35px; line-height: 55px; text- align: center; border-radius: 50%; -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5); -moz-box-shadow: 0 2px 5px rgba(0,0,0,.5); box-shadow: 0 2px 5px rgba(0,0,0,.5); }
