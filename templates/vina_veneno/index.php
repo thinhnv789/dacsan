@@ -95,5 +95,5 @@ JHtml::_('formbehavior.chosen', 'select#id_currency');
 @media (max-width: 650px) { #floating-phone { display: block; } }
 </style>
 
-<a href="tel:0942691366" title="Gọi 0942691366" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="floating-phone"><i class="uk-icon-phone"></i>
+<a href="tel:01679526910" title="Gọi 01679526910" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="floating-phone"><i class="uk-icon-phone"></i>
 </a>
